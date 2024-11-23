@@ -54,7 +54,7 @@ const app = Vue.createApp({
             event.preventDefault();
         },
         local_url(item) {
-            return "./status/" + item.id_str;
+            return "./IDisposable/status/" + item.id_str;
         },
         twitter_url(item) {
             return "https://x.com/idisposable/status/" + item.id_str;
