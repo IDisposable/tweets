@@ -1,8 +1,10 @@
 ### a twitter archive thing
 
-Powers [https://tweets.jvns.ca](https://tweets.jvns.ca). As usual for me it's
-only designed for me to use and not really general software, a lot of my
-information is hardcoded into it.
+Powers [https://tweets.github365.com](https://tweets.github365.com). 
+
+As usual for me I reused the tool built by (Julia Evans @jvns)[https://github.com/jvns]
+originally . You can clone (her version)[https://github.com/jvns/tweets-archive] or 
+mine and update as below.
 
 To make it work, you need two things:
 
@@ -29,9 +31,8 @@ I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitte
 
 All of my information is hardcoded into the files. You'll need to edit `index.html`, `build.py`, and `app.js`. To replace it with your information, search the code for:
 
-* `julia`
-* `Julia`
-* `b0rk`
+* `Marc Brooks`
+* `IDisposable`
 * `profile.jpg`
 
 and replace it with your information instead.
